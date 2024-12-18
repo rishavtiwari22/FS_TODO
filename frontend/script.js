@@ -2,7 +2,8 @@ const todoInput = document.getElementById('todo-input');
 const addTodoButton = document.getElementById('add-todo');
 const todoList = document.getElementById('todo-list');
 
-const API_URL = 'http://localhost:5001/api/todos';
+// const API_URL = 'http://localhost:5001/api/todos';
+const API_URL = 'https://fullstacktodo-xfun.onrender.com';
 
 const fetchTodos = async () => {
     const response = await fetch(API_URL);
